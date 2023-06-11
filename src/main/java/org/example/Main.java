@@ -36,6 +36,7 @@ public class Main {
         // г) ** Создать класс, содержащий массив сотрудников, и реализовать возможность вывода данных с использованием foreach.
         ArrayWorkers arrayWorkers=new ArrayWorkers(new Workers[5]);
         arrayWorkers.RandomFillWorkers();
+        System.out.println("Массив сотрудников и сортировка foreach");
         PrintWorkers.print(arrayWorkers);
     }
 }
